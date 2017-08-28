@@ -12,5 +12,5 @@ use Pls\Http\Message\{Request, Response};
 
 interface Client
 {
-    public function sendRequest(Request $request): Response;
+    public function send(Request $request): Response;
 }
